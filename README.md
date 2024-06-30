@@ -12,7 +12,7 @@
 
 ### Installation
 
-1. Clone the repository: git clone https://github.com/KunalGarg-PEC/BOB_Solution
+1. Clone the repository: git clone https://github.com/KunalGarg-PEC/BOB_Hackathon_2024
 2. Install the required libraries: pip install pandas numpy azure-ai-openai azure-identity
 
 ### Usage
