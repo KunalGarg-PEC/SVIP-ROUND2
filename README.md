@@ -1,27 +1,40 @@
-# Financial Advisory AI Project
-
-## Overview
-Revolutionizing financial advisory services using generative AI to provide personalized, data-driven financial advice to customers.
-
-## Objectives
-- Analyze customer financial data and market trends to generate tailored investment strategies.
-- Offer real-time advisory services that adapt to changing financial conditions and customer goals.
-- Ensure transparency and explainability in the AI-driven advisory process to build customer trust and confidence.
-
-## Repository Structure
-- /docs: Documentation files
-- /src: Source code for different modules
-- README.md: Project overview and setup instructions
-- .gitignore: Git ignore file
-- LICENSE: License file
-
 ## Getting Started
-To get started with this project, follow the instructions in the overview.md file located in the /docs folder.
 
-## Evaluation Criteria
-- Business Potential and Relevance
-- Uniqueness of Approach and Solution
-- User Experience
-- Scalability
-- Ease of Development and Maintenance
-- Security Considerations
+### Prerequisites
+
+- Python 3.8+
+- Azure account with access to OpenAI services
+- Required Python libraries:
+  - pandas
+  - numpy
+  - azure-ai-openai
+  - azure-identity
+
+### Installation
+
+1. Clone the repository: git clone https://github.com/KunalGarg-PEC/BOB_Solution
+2. Install the required libraries: pip install pandas numpy azure-ai-openai azure-identity
+
+### Usage
+
+1. *Data Analysis*:
+- Run the data analysis module to analyze customer financial data and market trends:
+  
+  python src/data_analysis/analysis.py
+  
+
+2. *Real-Time Advisory*:
+- Run the real-time advisory module to generate personalized investment strategies:
+  
+  python src/real_time_advisory/advisory.py
+  
+
+3. *Transparency and Explainability*:
+- Run the explainability module to generate explanations for the AI-driven advice:
+  
+  python src/transparency_explainability/explainability.py
+  
+
+## Documentation
+
+Detailed documentation is available in the /docs directory. This includes an overview of the project, requirements, architecture, evaluation criteria, and future work.
