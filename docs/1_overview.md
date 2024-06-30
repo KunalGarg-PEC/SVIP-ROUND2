@@ -3,6 +3,7 @@
 ## Idea
 The financial advisory sector is ripe for transformation with the advent of generative AI. This project aims to revolutionize financial advisory services by providing personalized, data-driven financial advice to customers. Leveraging AI models like GPT-4, we can analyze vast amounts of customer data and market trends to offer tailored investment strategies and real-time advisory services that adapt to changing conditions and customer goals.
 
+
 ## Proposed Solution
 1. *Data Analysis Module*:
    - Analyzes customer financial data and market trends.
